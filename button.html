@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button</title>
+    <style>
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #4caf50;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      .button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <button>
+      <!-- Button -->
+      <a href="#target-section" class="button">Go to Section</a>
+
+      <!-- Some content to scroll past -->
+      <div style="height: 1000px">
+        <p>Scroll down to see the target section...</p>
+      </div>
+
+      <!-- Target Section -->
+      <section id="target-section">
+        <h2>This is the Target Section</h2>
+        <p>You've reached the target section!</p>
+      </section>
+    </button>
+  </body>
+</html>
